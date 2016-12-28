@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage-700" translatesAutoresizingMaskIntoConstraints="NO" id="vDU-UE-E4B">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vDU-UE-E4B" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="S6v-Na-oJf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="vDU-UE-E4B" secondAttribute="bottom" id="ltX-DY-PMA"/>
+                            <constraint firstItem="vDU-UE-E4B" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nkX-lG-aRh"/>
+                            <constraint firstAttribute="trailing" secondItem="vDU-UE-E4B" secondAttribute="trailing" id="uO1-cE-iRg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="vDU-UE-E4B"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="S6v-Na-oJf"/>
+                                <exclude reference="nkX-lG-aRh"/>
+                                <exclude reference="uO1-cE-iRg"/>
+                                <exclude reference="ltX-DY-PMA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="vDU-UE-E4B"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="S6v-Na-oJf"/>
+                                <include reference="nkX-lG-aRh"/>
+                                <include reference="uO1-cE-iRg"/>
+                                <include reference="ltX-DY-PMA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage-700" width="320" height="480"/>
+    </resources>
+</document>

@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+target 'HalfCandy' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for HalfCandy
+pod 'JPFPSStatus', '~> 0.0.2'
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'YYModel', '~> 1.0.3'
+pod 'MJExtension'
+pod 'Masonry'
+pod 'QCPullRefresh'
+pod 'MJRefresh'
+
+
+end
